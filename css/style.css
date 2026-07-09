@@ -3,9 +3,89 @@
     padding: 0;
 }
 
+
 /*--------------------------*/
 /*----- Reusable Style -----*/
 /*--------------------------*/
 .container {
     padding: 20px 10%;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+/* Navbar Style */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #575757;
+    font-family: "Arimo", sans-serif;
+    font-weight: 500;
+    padding: 0 5px;
+}
+
+.navbar button {
+    background-color: #1D4ED8;
+    color: white;
+    border: none;
+    padding: 7px 20px;
+    border-radius: 5px;
+}
+
+.navbar button:hover {
+    background-color: #082b8b;
+    transition: 0.3s;
+}
+
+
+/* Hero Style */
+header {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: 20px;
+    text-align: center;
+
+}
+
+.hero h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.hero button {
+    margin-top: 320px;
+    background-color: #1D4ED8;
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 5px;
+}
+
+.hero button:hover {
+    background-color: #082b8b;
+    transition: 0.2s;
+    outline: 1px solid white;
 }
