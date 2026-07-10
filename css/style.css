@@ -10,7 +10,7 @@
 .container {
     width: 90%; 
     max-width: 1200px; 
-    margin: auto; }
+    margin: auto; 
 }
 
 body {
@@ -23,6 +23,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 8px 0;
 }
 
 .menu {
